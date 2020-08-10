@@ -1,0 +1,66 @@
+arun, bala and nitiya ordered a pizza, where each slice has a 3n slices of varying size, arun and his friends will take slices of pizza as follows:
+Arun will pick any pizza slice.
+his friend bala will pick next slice in anti clockwise direction of Arun's pick. 
+his friend nitiya will pick next slice in clockwise direction of Arun's pick.
+Repeat until there are no more slices of pizzas.
+Sizes of Pizza slices is represented by circular array slices in clockwise direction.
+Return the maximum possible sum of slice sizes which arun can have.
+
+Input Description:
+First line contains n the total slices
+Secod line contains n slices with 3n sizes
+(1<n<1000)
+
+Output Description:
+Print the maximum possible sum of slice sizes which arun can have.
+
+Sample Input:
+6
+1 3 5 2 7 4
+
+Sample Output:
+12
+
+Explanation:
+the slices are,
+      1
+   4     3
+   7     5
+      2
+Consider the above circle is a pizza, Arun have to take (7) slice, so bala will take 2 ans nithiya will take 4 and then arun will take 5
+so arun will havw 7+5=(12)slice
+
+Sample Input:
+7
+12 4 6 3 8 9 13
+
+Sample Output:
+21
+
+Sample Input:
+8
+23 45 78 91 45 67 77 22
+
+Sample Output:
+168
+
+Sample Input:
+4
+23 67 54 12
+
+Sample Output:
+67
+
+Sample Input:
+9
+1 2 3 4 5 6 7 8 9
+
+Sample Output:
+21
+
+Sample Input:
+6
+45 67 23 89 101 146
+
+Sample Output:
+235
